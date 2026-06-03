@@ -182,11 +182,31 @@ if ($customer = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC)) {
 
 sqlsrv_free_stmt($stmt);
 sqlsrv_close($conn);
-🎨 User Interface & Interaction GuideThe front-end design relies on a premium, clean layout with smooth user tracking motions:PropertyValue ConfigurationApplied ScopePrimary Theme Color#dc2626 (Red-600)High-end Luxury Fashion Brand Identity AccentsCanvas Background#ffffff / #f8fafcLow-fatigue white minimal slate layoutCard Highlight Panel#fef2f2 (Red-50)Background frames for active customer dashboard statisticsTypography SpecInter, Sans-SerifHigh-legibility text alignment across mobile screensCore Verification Sequence MappingLanding View: Customer reaches index page and supplies either their Code, Mobile number, or NIC sequence.Gateway Evaluation: Request hits cPanel, triggers an outbound cURL packet over dedicated network paths to port forward mapping addresses on the local SLT Fiber Router router (Ports 80 / 8080).Dashboard Hydration: Gateway reviews MSSQL parameters, aggregates computational sums, and builds a clean JSON object for the Tailwind UI engine to display instantly without reloading the shell page.🚀 Forward Architectural RoadmapTo support scale increases and minimize system load across the operational tracking pipeline, the following modular upgrades are scheduled:[ v1.0.0 Stable ] ➔ Direct MSSQL Parameterized Query Routing & Customer Query Layouts
+
+🎨 User Interface & Interaction Guide
+
+The front-end design relies on a premium, clean layout with smooth user tracking motions:PropertyValue ConfigurationApplied ScopePrimary Theme Color#dc2626 (Red-600)High-end Luxury Fashion Brand Identity AccentsCanvas Background#ffffff / #f8fafcLow-fatigue white minimal slate layoutCard Highlight Panel#fef2f2 (Red-50)Background frames for active customer dashboard statisticsTypography SpecInter, Sans-SerifHigh-legibility text alignment across mobile screensCore Verification Sequence MappingLanding View: Customer reaches index page and supplies either their Code, Mobile number, or NIC sequence.Gateway Evaluation: Request hits cPanel, triggers an outbound cURL packet over dedicated network paths to port forward mapping addresses on the local SLT Fiber Router router (Ports 80 / 8080).Dashboard Hydration: Gateway reviews MSSQL parameters, aggregates computational sums, and builds a clean JSON object for the Tailwind UI engine to display instantly without reloading the shell page.
+
+🚀 Forward Architectural Roadmap
+
+To support scale increases and minimize system load across the operational tracking pipeline, the following modular upgrades are scheduled:
+[ v1.0.0 Stable ] ➔ Direct MSSQL Parameterized Query Routing & Customer Query Layouts
         ↓
 [ v1.1.0 Build  ] ➔ Ledger Aggregation Records, Detailed Member Dashboards, History Tables
         ↓
 [ v1.2.0 Build  ] ➔ OTP Verification Pipelines, Mobile Registrations, Verification Keys
         ↓
 [ v2.0.0 Master ] ➔ Redis Enterprise Caching Core, JWT Authorization Chains, Native Mobile Applications
-High-Volume Performance ModificationsPre-Calculated Totals (v1.1.0): Replace raw runtime SUM() aggregates with a calculated database summary ledger (LOYALTY_BALANCE) reducing extraction execution overhead below 20ms.Redis Caching Injection (v2.0.0): Build an index query intercept layer on the intermediate server. If matching profiles reside inside cache storage memory, return it instantly to cut active physical query pipelines to the main SQL Server instance by 80%.📄 Licensing & Verification ParametersProject Reference: ASB Fashion Loyalty PortalTarget Marketplace: Retail Loyalty Management Core SystemDeployment Region: Sri LankaOperating License: Private Core Configuration – Internal Distribution Only
+
+High-Volume Performance Modifications
+
+Pre-Calculated Totals (v1.1.0):Replace raw runtime SUM() aggregates with a calculated database summary ledger (LOYALTY_BALANCE) reducing extraction execution overhead below 20ms.
+
+Redis Caching Injection (v2.0.0): Build an index query intercept layer on the intermediate server. If matching profiles reside inside cache storage memory, return it instantly to cut active physical query pipelines to the main SQL Server instance by 80%.
+
+📄 Licensing & Verification Parameters
+
+Project Reference: ASB Fashion Loyalty Portal
+Target Marketplace: Retail Loyalty Management Core System
+Deployment Region: Sri Lanka
+Operating License: Private Core Configuration – Internal Distribution Only
